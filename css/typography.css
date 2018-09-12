@@ -1,0 +1,108 @@
+
+body{
+	font-family:Raleway, sans-serif;
+	color:#555555;
+}
+body a{
+	color:#555555;
+}
+.top-list{
+	padding:0.5em;
+}
+.top-list li a{
+	color: white;
+} 
+.top-list li a:hover{
+	color:#c7b299;
+} 
+.bot-list li a{
+	color:#555555;
+}
+.white{
+	color:#FFFFFF;
+	padding-top:0.5em;
+}
+
+.light-brown{
+	color:#d8cab9;
+}
+.grey{
+	color:#959595;
+}
+.service-header{
+	font-weight:bold;
+}
+.text{
+	padding:0.8em;
+}
+h2, h3{
+	padding:0.3em;
+}
+.space{
+	padding:0.5em 0.5em 0em 1em;
+}
+.button{
+	font-family:Raleway, sans-serif;
+	font-weight:bold;
+}
+.bold{
+	font-weight:bold;
+}
+.medium{
+	font-size:0.9em
+}
+.big{
+	font-size:2.2em;
+}
+.small{
+	font-size:0.7em;
+	padding-top:0.4em 0;
+}
+.services-description{
+	font-size:0.9em;	
+	}
+/* Mobile Styles */
+@media only screen and (max-width: 425px) {
+	.services-description{
+	font-size:0.8em;
+	}
+	.services-header{
+	font-size:1.1em;	
+	}
+	.button {
+	font-size:0.6em;
+	}	
+	.another{
+		color:#F4A460;
+	}
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 426px) and (max-width: 960px) {
+	.services-header{
+		font-size:1em;	
+	}
+	.button {
+		font-size:0.8em;
+	}
+	.big{
+	font-size:1.8em;
+}
+	.small{
+	font-size:0.5em;
+	padding-top:0.3em;
+	}
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+	.size-header{
+		font-size:2em;
+	}
+	.services-header{
+	font-size:1.3em;	
+	}
+	.button{
+	font-size:0.9em;
+	}
+}
